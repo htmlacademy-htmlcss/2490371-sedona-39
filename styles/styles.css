@@ -62,6 +62,8 @@ button{
 .nav-menu{
   font-size: 20px;
   line-height: 24px;
+  position: relative;
+  margin-left: 238px;
 }
 
 .nav-item{
@@ -150,12 +152,6 @@ button{
 .subscribe-btn{
   background-color: #82B3D3;
   font-size: 20px;
-}
-
-.contact-info a{
-  font-size: 40px;
-  line-height: 40px;
-  text-transform: uppercase;
 }
 
 .breadcrumbs{
@@ -247,5 +243,271 @@ button{
   color: #000;
 }
 
+/*HEADER*/
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 70px;
+}
 
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  padding: 20px 16px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #756157;
+  outline: none;
+}
+
+.nav-link:active {
+  color: #756157;
+  opacity: 0.3;
+  outline: none;
+}
+
+.sedona-logo {
+  width: 140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 70px;
+}
+
+.sedona-logo:hover,
+.sedona-logo:focus {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.sedona-logo:active {
+  opacity: 0.3;
+}
+
+.nav-item-current {
+  position: relative;
+}
+
+.nav-item-current::before {
+  position: absolute;
+  content: "";
+  bottom: -1px;
+  left: 16px;
+  z-index: 1;
+  width: calc(100% - 32px);
+  border-bottom: 2px solid #756257;
+}
+
+.user-actions {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-user-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 21px 12px 17px 12px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.6;
+  outline: none;
+}
+
+.nav-link:active {
+  opacity: 0.3;
+  outline: none;
+}
+
+.navigation-icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #000000;
+}
+
+.nav-user-action-favorite {
+  position: relative;
+}
+
+.favorite-count-item {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 5px 5px 5px 4px;
+  text-align: center;
+  background: #7DB54F;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
+
+.user-action-to-book-btn {
+  width: 160px;
+  background-color: #756157;
+  padding: 8px 0;
+}
+
+a.user-action-to-book-btn {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.user-action-to-book-btn:hover,
+.user-action-to-book-btn:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.user-action-to-book-btn:active {
+  background-color: rgba(117, 97, 87, 1);
+  color: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+/* FOOTER */
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 70px 30px 70px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-item {
+  list-style: none;
+}
+
+.social-media-link {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 47px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  outline: none;
+}
+
+.social-media-link:active .social-icon,
+.social-media-link:hover .social-icon,
+.social-media-link:focus .social-icon {
+  fill: #68A2CA;
+}
+
+.social-media-link:active .social-icon {
+  opacity: 0.3;
+}
+
+.social-icon {
+  fill: #83B3D3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone {
+  text-decoration: none;
+  color: #000000;
+  width: 720px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.phone:active,
+.phone:hover,
+.phone:focus {
+  color: #756157;
+  outline: none;
+}
+
+.phone:active {
+  opacity: 0.3;
+}
+
+.copyright {
+  display: block;
+  padding-top: 5px;
+}
+
+.html-academy-logo {
+  fill: #000000;
+}
+
+.copyright:hover,
+.copyright:focus {
+  outline: none;
+}
+
+.copyright:active .html-academy-logo,
+.copyright:hover .html-academy-logo,
+.copyright:focus .html-academy-logo {
+  fill: #756157;
+}
+
+.copyright:active .html-academy-logo {
+  opacity: 0.3;
+}
