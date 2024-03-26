@@ -64,8 +64,13 @@ button{
   line-height: 24px;
 }
 
+.nav-item{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .user-action-to-book-btn{
-  padding: 8px 0;
   line-height: 20px;
 }
 
@@ -104,8 +109,13 @@ button{
   text-align: center;
 }
 
-.tile-item,
 .advantage-with-icon-item{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.tile-item{
   background-color: #82B3D3;
   text-align: center;
 }
