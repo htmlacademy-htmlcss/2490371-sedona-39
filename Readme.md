@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Зорко](https://up.htmlacademy.ru/htmlcss/39/user/2490371).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
+* Проект: [Sedona](https://zaaalex.github.io/2490371-sedona-39/).
 
 ---
 
