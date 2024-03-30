@@ -9,7 +9,7 @@
 <body>
   <div class="shadow-container">
     <header class="header-container" data-test="header">
-      <div class="logo-navigation-container">
+      <div class="logo-nav-container">
         <a class="sedona-logo" href="index.html" aria-current="page">
           <img
             class="page-header-logo"
@@ -70,7 +70,7 @@
             </a>
           </li>
         </ul>
-        <button class="user-action-to-book-btn">
+        <button class="btn user-action-to-book-btn">
           Хочу сюда!
         </button>
       </nav>
@@ -106,6 +106,7 @@
           </nav>
         </header>
         <section class="filters" data-test="filter">
+          <h2 class="visually-hidden">Форма подбора гостиницы по параметрам</h2>
           <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
             <div class="form-container">
               <fieldset class="filter-field">
@@ -181,10 +182,10 @@
                 </div>
                 <div class="price-toggle-container">
                   <div class="range-bar" style="left: 1px; width: 226px">
-                    <button class="range-toggle toggle-min" id="price-toggle-min" type="button">
+                    <button class="btn range-toggle toggle-min" id="price-toggle-min" type="button">
                       <span class="visually-hidden">Минимальная цена для поиска</span>
                     </button>
-                    <button class="range-toggle toggle-max" id="price-toggle-max" type="button">
+                    <button class="btn range-toggle toggle-max" id="price-toggle-max" type="button">
                       <span class="visually-hidden">Максимальная цена для поиска</span>
                     </button>
                   </div>
@@ -192,8 +193,8 @@
               </div>
             </fieldset>
             <div class="form-group">
-              <button class="submit-btn" type="submit">Применить</button>
-              <button class="reset-btn" type="reset">Сбросить</button>
+              <button class="btn submit-btn" type="submit">Применить</button>
+              <button class="btn reset-btn" type="reset">Сбросить</button>
             </div>
           </form>
         </section>
@@ -210,7 +211,7 @@
           </div>
           <ul class="hotel-visualization-selector">
             <li class="hotel-visualization-item">
-              <button class="catalog-button button-tile catalog-current">
+              <a class="catalog-btn button-tile catalog-current" href="">
                 <svg
                   aria-label="Отобразить плитками"
                   aria-hidden="true"
@@ -223,10 +224,10 @@
                 >
                   <path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000" />
                 </svg>
-              </button>
+              </a>
             </li>
             <li class="catalog-button-item">
-              <button class="catalog-button button-card">
+              <a class="catalog-btn button-card" href="">
                 <svg
                   aria-label="Отобразить карточками"
                   aria-hidden="true"
@@ -241,10 +242,10 @@
                     <path d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z" />
                   </g>
                 </svg>
-              </button>
+              </a>
             </li>
             <li class="catalog-button-item">
-              <button class="catalog-button button-list">
+              <a class="catalog-btn button-list" href="">
                 <svg
                   aria-label="Отобразить списком"
                   aria-hidden="true"
@@ -257,7 +258,7 @@
                 >
                   <path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000" />
                 </svg>
-              </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -280,10 +281,10 @@
             <div class="catalog-item-price">
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-value">От <span class="price-value">4000</span> ₽</p>
-              <button class="catalog-item-detail-info-btn">
-                <a href="#">Подробнее</a>
-              </button>
-              <button class="catalog-item-add-favorite-btn">В избранное</button>
+              <a class="btn catalog-item-detail-info-btn" href="">
+                Подробнее
+              </a>
+              <button class="btn catalog-item-add-favorite-btn">В избранное</button>
               <p class="card-star-container card-star card-star-4">
                 <span class="visually-hidden">4 звезды</span>
               </p>
@@ -307,10 +308,10 @@
             <div class="catalog-item-price">
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-value">От <span class="card-price-value-result">5000</span> ₽</p>
-              <button class="catalog-item-detail-info-btn">
-                <a href="#">Подробнее</a>
-              </button>
-              <button class="catalog-item-add-favorite-btn-selected">В избранном</button>
+              <a class="btn catalog-item-detail-info-btn" href="">
+                Подробнее
+              </a>
+              <button class="btn catalog-item-add-favorite-btn-selected">В избранном</button>
               <p class="card-star-container card-star card-star-4">
                 <span class="visually-hidden">4 звезды</span>
               </p>
@@ -334,10 +335,10 @@
             <div class="catalog-item-price">
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-value">От <span class="card-price-value-result">2500</span> ₽</p>
-              <button class="catalog-item-detail-info-btn">
-                <a href="#">Подробнее</a>
-              </button>
-              <button class="">В избранное</button>
+              <a class="btn catalog-item-detail-info-btn" href="">
+                Подробнее
+              </a>
+              <button class="btn">В избранное</button>
               <p class="card-star-container card-star card-star-3">
                 <span class="visually-hidden">3 звезды</span>
               </p>
@@ -361,10 +362,10 @@
             <div class="catalog-item-price">
               <p class="catalog-item-type">Гостиница</p>
               <p class="catalog-item-value">От <span class="card-price-value-result">1500</span> ₽</p>
-              <button class="catalog-item-detail-info-btn">
-                <a href="#">Подробнее</a>
-              </button>
-              <button class="">В избранное</button>
+              <a class="btn catalog-item-detail-info-btn" href="">
+                Подробнее
+              </a>
+              <button class="btn">В избранное</button>
               <p class="card-star-container card-star card-star-2">
                 <span class="visually-hidden">2 звезды</span>
               </p>
@@ -403,7 +404,7 @@
           <label class="subscription-field-label" for="email">
             <input class="subscription-field" id="email" type="email" placeholder="Ваш e-mail" name="email" required>
           </label>
-          <button class="subscribe-btn" type="submit">Подписаться</button>
+          <button class="btn subscribe-btn" type="submit">Подписаться</button>
         </form>
       </aside>
     </main>

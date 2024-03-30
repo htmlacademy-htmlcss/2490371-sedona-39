@@ -9,7 +9,7 @@
 <body>
 <div class="shadow-container">
   <header class="header-container" data-test="header">
-    <div class="logo-navigation-container">
+    <div class="logo-nav-container">
       <a class="sedona-logo" href="index.html" aria-current="page">
         <img class="page-header-logo" src="./images/logo-sedona.svg" draggable="false" width="140" height="70" alt="Логотип города Седона.">
       </a>
@@ -63,7 +63,7 @@
           </a>
         </li>
       </ul>
-      <button class="user-action-to-book-btn">
+      <button class="btn user-action-to-book-btn">
         Хочу сюда!
       </button>
     </nav>
@@ -71,7 +71,7 @@
   <main class="main-container" data-test="main">
     <section class="hero" data-test="hero">
       <img
-        class="img-hero"
+        class="image-hero"
         src="./images/sedona-tagline.svg"
         width="458"
         height="352"
@@ -95,7 +95,7 @@
               Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
           <img
-            class="advantage-img"
+            class="advantage-image"
             src="./images/main/photo-1.jpg"
             width="800"
             height="385"
@@ -129,7 +129,7 @@
             </p>
           </div>
           <img
-            class="advantage-img advantage-order"
+            class="advantage-image advantage-order"
             src="images/main/photo-2.jpg"
             draggable="false"
             alt="Каньон, горы, снова горы."
@@ -170,7 +170,7 @@
       <p class="wide-item-description">
         Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
-      <button class="hotel-search-btn">Поиск гостиницы в Седоне</button>
+      <button class="btn hotel-search-btn">Поиск гостиницы в Седоне</button>
     </section>
     <aside class="index-page-subscribe subscribe-container" data-test="subscribe">
       <h2 class="wide-item-title subscribe-title">Подпишитесь на рассылку</h2>
@@ -182,7 +182,7 @@
           <span class="visually-hidden">Введите ваш e-mail</span>
           <input class="subscription-field" id="email" type="email" placeholder="Ваш e-mail" name="email" required>
         </label>
-        <button class="subscribe-btn" type="submit">Подписаться</button>
+        <button class="btn subscribe-btn" type="submit">Подписаться</button>
       </form>
     </aside>
   </main>
@@ -260,7 +260,7 @@
   </footer>
   <div class="darken">
     <div class="modal-window-container" data-test="modal">
-      <button class="cross-btn" aria-label="Закрыть окно">
+      <button class="btn cross-btn" aria-label="Закрыть окно">
         <svg class="cross-image" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z" fill="black"/>
         </svg>
@@ -301,7 +301,7 @@
           <div class="modal-window-additional-data-container">
             <label class="modal-window-form-label" for="adults">Взрослые:</label>
             <div class="modal-window-numbers-selector">
-              <button class="button-guests" type="button">
+              <button class="btn btn-guests" type="button">
                 <svg
                   class="svg-adults"
                   aria-hidden="true"
@@ -318,7 +318,7 @@
                 </svg>
               </button>
               <input class="modal-window-form-field" id="adults" type="number" name="adults" min="1" value="2">
-              <button class="button-guests" type="button">
+              <button class="btn btn-guests" type="button">
                 <svg
                   class="svg-adults"
                   aria-hidden="true"
@@ -341,7 +341,7 @@
               <span class="modal-window-form-label form-label-icon">
                 <label class="modal-window-form-label" for="kids">Дети:</label>
                 <span class="tooltip">
-                  <button class="hint-btn" type="button">
+                  <button class="btn hint-btn" type="button">
                     <svg
                       width="3"
                       height="12"
@@ -360,7 +360,7 @@
               </span>
             </div>
             <div class="modal-window-numbers-selector">
-              <button class="button-guests" type="button">
+              <button class="btn btn-guests" type="button">
                 <svg
                   class="svg-adults"
                   aria-hidden="true"
@@ -377,7 +377,7 @@
                 </svg>
               </button>
               <input class="modal-window-form-field" id="kids" type="number" name="kids" min="0" value="2">
-              <button class="button-guests" type="button">
+              <button class="btn btn-guests" type="button">
                 <svg
                   class="svg-adults"
                   aria-hidden="true"
@@ -395,7 +395,7 @@
               </button>
             </div>
           </div>
-          <button class="modal-window-form-submit-button" type="submit">Найти</button>
+          <button class="btn modal-window-form-submit-btn" type="submit">Найти</button>
         </form>
       </section>
     </div>
