@@ -284,12 +284,20 @@ button:disabled {
 
 .hero {
   background-color: #b2d8f1;
-  background-image: url("../images/background-tagline.jpg");
-  background-repeat: no-repeat;
-  background-position: center bottom, center;
-  background-size: 100% auto, cover;
+  background-image: url("../images/divider.svg"), url("../images/background-tagline.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, center top;
+  background-size: auto, contain;
   color: #FFFFFF;
   padding: 51px 50px 82px 50px;
+}
+
+.divider {
+  background-image: url("../images/divider.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 1200px;
+  height: 57px;
 }
 
 .img-hero {
