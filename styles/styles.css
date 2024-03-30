@@ -95,7 +95,7 @@ button:disabled {
   height: 64px;
 }
 
-.logo-navigation-container {
+.logo-nav-container {
   display: flex;
 }
 
@@ -198,7 +198,7 @@ button:disabled {
   outline: none;
 }
 
-.navigation-icon {
+.nav-icon {
   display: block;
   position: absolute;
   top: 0;
@@ -299,7 +299,7 @@ button:disabled {
   height: 57px;
 }
 
-.img-hero {
+.image-hero {
   margin: 0 auto;
   display: block;
 }
@@ -393,7 +393,7 @@ button:disabled {
   background-color: #FFFFFF;
 }
 
-.advantage-img {
+.advantage-image {
   object-fit: contain;
   max-width: 100%;
 }
@@ -1110,12 +1110,12 @@ button:disabled {
   padding: 0;
 }
 
-.catalog-button-item a {
+.catalog-btn-item a {
   color: #000000;
   text-decoration: none;
 }
 
-.catalog-button {
+.catalog-btn {
   width: 48px;
   height: 48px;
   padding: 12px 14px;
@@ -1127,15 +1127,15 @@ button:disabled {
   align-items: center;
 }
 
-.catalog-button:hover {
+.catalog-btn:hover {
   border-color: #000000;
 }
 
-.catalog-button:focus {
+.catalog-btn:focus {
   border-color: #68A2CA;
 }
 
-.catalog-button:active {
+.catalog-btn:active {
   border-color: #000000;
 }
 
@@ -1523,7 +1523,7 @@ button:disabled {
   padding: 0;
 }
 
-.button-guests {
+.btn-guests {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1541,28 +1541,28 @@ button:disabled {
 .cross-btn:hover,
 .cross-btn:focus,
 .cross-btn:active,
-.button-guests:hover,
-.button-guests:focus,
-.button-guests:active {
+.btn-guests:hover,
+.btn-guests:focus,
+.btn-guests:active {
   background-color: #F2F2F2;
 }
 
-.button-guests:hover .svg-adults,
-.button-guests:focus .svg-adults {
+.btn-guests:hover .svg-adults,
+.btn-guests:focus .svg-adults {
   opacity: 1;
 }
 
-.button-guests:focus .svg-adults {
+.btn-guests:focus .svg-adults {
   outline: 3px solid #82B3D3;
   border-radius: 4px;
 }
 
-.button-guests:active .svg-adults {
+.btn-guests:active .svg-adults {
   outline: none;
   opacity: 0.3;
 }
 
-.button-guests:disabled {
+.btn-guests:disabled {
   opacity: 0.1;
 }
 
@@ -1594,7 +1594,7 @@ input[type="number"] {
   appearance: textfield;
 }
 
-.modal-window-form-submit-button:active {
+.modal-window-form-submit-btn:active {
   background-color: #68A2CA;
   color: rgba(255, 255, 255, 0.3);
   outline: none;
@@ -1676,7 +1676,7 @@ input[type="number"] {
   height: 9px;
 }
 
-.modal-window-form-submit-button {
+.modal-window-form-submit-btn {
   grid-column: 1 / 3;
   width: 577px;
   padding: 18px 0;
