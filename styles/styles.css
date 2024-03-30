@@ -14,11 +14,11 @@
   font-display: swap;
 }
 
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   background-color: #F2F2F2;
@@ -30,7 +30,7 @@ body{
   min-width: 1200px;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000;
 }
@@ -250,7 +250,7 @@ button:disabled {
 }
 
 .card-star {
-  background-image: url('../images/icons/star.svg');
+  background-image: url("../images/icons/star.svg");
   background-repeat: repeat-x;
   width: var(--star-width);
   height: 17px;
@@ -381,7 +381,7 @@ button:disabled {
   opacity: 0.3;
 }
 
-.advantage-tile-item{
+.advantage-tile-item {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -1589,7 +1589,7 @@ button:disabled {
   display: none;
 }
 
-input[type='number'] {
+input[type="number"] {
   -webkit-appearance: textfield;
   appearance: textfield;
 }
@@ -1664,7 +1664,7 @@ input[type='number'] {
 }
 
 .tooltip-text::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 100%;
   left: 0;
